@@ -4,10 +4,11 @@ ion-title {
 }
 .tbar {
   position: absolute;
-  margin: 12px;
-  width: 95%;
+  margin: 12px 2px 0px 2px;
+  padding: 4px;
+  width: 98%;
   border-radius: 8px;
-  opacity: 0.9;
+  opacity: 0.5;
 }
 
 .tbar-content {
@@ -16,8 +17,21 @@ ion-title {
   justify-content: space-between;
 }
 
-.img-el {
+// .img-el {
+//   height: 100vh;
+// }
+
+// .video-el {
+//   height: auto;
+//   width: 100% !important;
+// }
+video {
+  width: 100wh;
   height: 100vh;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .swipes {
@@ -26,12 +40,21 @@ ion-title {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: auto;
+  border-radius: 20px;
+  max-width: 600px;
   // background-color: burlywood;
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
 }
 
 .course-title {
   position: absolute;
-  bottom: 20px;
+  bottom: 24px;
   margin-top: 6px;
   left: 8px;
   color: orange;
@@ -39,9 +62,19 @@ ion-title {
   font-weight: 700;
 }
 
+.course-subs {
+  position: absolute;
+  bottom: 10px;
+  margin-top: 6px;
+  left: 8px;
+  color: rgb(116, 109, 96);
+  font-size: 14px;
+  font-weight: 700;
+}
+
 .trainer-handle {
   position: absolute;
-  bottom: 36px;
+  bottom: 44px;
   left: 8px;
   color: crimson;
   font-size: 20px;
