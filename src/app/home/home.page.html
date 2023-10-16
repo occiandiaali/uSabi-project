@@ -1,16 +1,23 @@
-<ion-header [translucent]="true" class="tbar">
+<!-- <ion-header [translucent]="true" class="tbar">
   <ion-toolbar>
     <ion-title> uSabi </ion-title>
   </ion-toolbar>
-</ion-header>
-
+</ion-header> -->
 <ion-content [fullscreen]="true">
+  <ion-header [translucent]="true" class="tbar">
+    <ion-toolbar class="tbar">
+      <div class="tbar-content">
+        <ion-title> uSabi </ion-title>
+        <ion-button color="success">Login</ion-button>
+      </div>
+    </ion-toolbar>
+  </ion-header>
   <!-- <ion-header collapse="condense">
     <ion-toolbar>
       <ion-title size="large">Blank</ion-title>
     </ion-toolbar>
   </ion-header> -->
-
+  <!--
   <div id="container">
     <strong>Ready to create an app?</strong>
     <p>
@@ -22,7 +29,16 @@
         >UI Components</a
       >
     </p>
-  </div>
+  </div> -->
+  <swiper-container>
+    <swiper-slide class="swipes" *ngFor="let video of videos">
+      <img src="{{video.image}}" alt="video" class="img-el" />
+      <span class="trainer-handle">@{{video.title.substring(0, 8)}}</span>
+      <span class="course-title">{{video.description.substring(0, 17)}}</span>
+    </swiper-slide>
+    <!-- <swiper-slide class="swipes">Two</swiper-slide>
+    <swiper-slide class="swipes">Three</swiper-slide> -->
+  </swiper-container>
   <ion-fab slot="fixed" vertical="bottom" horizontal="end">
     <ion-fab-button>
       <ion-icon name="chevron-up-circle"></ion-icon>
