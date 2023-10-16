@@ -8,7 +8,11 @@ Learn. Earn.
 
 ## Gif  
 
-[screen-recording.webm](https://github.com/occiandiaali/uSabi-project/assets/40769994/c3d5a56b-77cf-4d4e-877c-b75652c116fe)
+[screen-recording.webm](https://github.com/occiandiaali/uSabi-project/assets/40769994/c3d5a56b-77cf-4d4e-877c-b75652c116fe)  
+
+[screen-recording (4).webm](https://github.com/occiandiaali/uSabi-project/assets/40769994/4b07cfc2-76ff-44b5-86ed-81f66ddc6c02)
+
+
 
 
 
